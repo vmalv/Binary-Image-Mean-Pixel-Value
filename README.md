@@ -12,7 +12,7 @@ Here you can find a description of each of the files and folders of the reposito
 Python script that contains an example of the extraction of the BBC and pnos parameters for different images.
 
 - example.ipynb
-Jupyter Notebook that contains an example of the extraction of the BBC and pnos parameters for different images. Additionally, we have included some intermediate plots to help understand the image-preparation and parameter-extraction processes.
+Jupyter Notebook contains an example of the extraction of the BBC and pnos parameters for different images. Additionally, we have included some intermediate plots to help understand the image-preparation and parameter-extraction processes.
 There are cases when the 'shift' parameter needs to be tuned because it could vary from one image to another. To select the proper one, we recommend using the notebook with the intermediate plots.
 
 - libs/utils.py
@@ -24,7 +24,7 @@ Contains the version information of the python libraries used.
 ### Folders
 
 - data
-We suggest to place on this directory the images that will be processed by the script.
+We suggest placing in this directory the images that will be processed by the script.
 
 - output
 This directory contains the binarized images generated during the processing.
@@ -32,10 +32,10 @@ This directory contains the binarized images generated during the processing.
 ## Installation and first use
 
 ### Installing python
-In order to install python for the first time, we suggest you to use the following guide:
+To install python for the first time, we suggest you use the following guide:
 https://realpython.com/installing-python/
 
-Although we used the Python version: 3.9.10, the code should be executed without problems with superior versions.
+Although we used Python version 3.9.10, the code should run without problems with superior versions.
 
 ### Installing required packages
 
@@ -45,5 +45,5 @@ Although we used the Python version: 3.9.10, the code should be executed without
 - If pip is not installed then you could manually download and install the python packages specified on the 'requirements.txt' file.
     In any case, we recommend installing the packages using pip. To install pip, the official documentation provides a step-by-step guide:
     https://pip.pypa.io/en/stable/installation/
-    This guide provides some explanation that could help you with the manual installation process:
+    This guide provides some explanations that could help you with the manual installation process:
     https://www.geeksforgeeks.org/how-to-manually-install-python-packages/

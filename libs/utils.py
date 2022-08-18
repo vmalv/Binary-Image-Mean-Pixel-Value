@@ -91,7 +91,8 @@ def no_cloth_used(image: Image) -> np.array:
 
     Returns:
         Pixel values matrix.
-    """    
+    """
+     
     pno = np.mean(np.array(image).flatten())
     return pno
 

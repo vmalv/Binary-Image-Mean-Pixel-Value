@@ -1,11 +1,11 @@
 # vscode stuffs
 settings.json
 
-# Data folder
-data/
+# data folder contents, but keep directory
+data/*
 
-# Output folder
-output/
+# output folder contents, but keep directory
+output/*
 
 # Byte-compiled / optimized / DLL files
 __pycache__/

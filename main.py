@@ -33,7 +33,7 @@ cloth = True
 pnos = [0.309129, 0.291286, 0.270232, 0.269421]
 
 # Load raw image
-raw = Image.open(os.path.join('data', file+ext))
+raw = Image.open(os.path.join(os.path.dirname(__file__),'data', file+ext))
 
 # Crop "raw" image to ensure it is 5x5 cm^2 (1 inch = 2.54 cm). Be sure no reference marks printed on the
 # paper remain included inside the cropped image. Note that after cropping we keep the center of the 
@@ -55,7 +55,7 @@ binary = rawnegred.point(lambda p: 1 if p >= (binary_threshold*255) else 0)
 
 # The values of the binarized image are converted to the 0-255 scale for being saved on a file.
 output = binary.point(lambda p: p*255)
-output.save(os.path.join('output', 'Binary_' + file + ext))
+output.save(os.path.join(os.path.dirname(__file__),'output', 'Binary_' + file + ext))
 print('Binarized image generated under the name: {}'.format('Binary_' + file + ext))
 
 # calculate the output parameters for this experiment and print them

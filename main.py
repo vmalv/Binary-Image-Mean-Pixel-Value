@@ -26,10 +26,10 @@ binary_threshold = 0.3
 v_shift = 0
 h_shift = 0
 
-# Defined if a CLOTH was used for this experiment
+# Defines if a CLOTH was used for this experiment
 cloth = True
 
-# the parameter 'pnos' should contain the pixel mean values of all CONFFREE experiments previously made
+# The parameter 'pnos' should contain the pixel mean values of all CONFFREE experiments previously made
 pnos = [0.309129, 0.291286, 0.270232, 0.269421]
 
 # Load raw image

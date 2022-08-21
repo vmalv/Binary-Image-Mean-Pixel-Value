@@ -124,3 +124,19 @@ def get_results(cloth: bool, img: Image, pnos: list = []) -> None:
     else:
         pno = no_cloth_used(img)
         print('pno: ',pno) # TODO ver cómo formatear el p_no (sub) para que tenga una barrita encima
+
+
+def get_p(binaryimage: Image) -> None:
+    """Extracts the mean pixel value (p) of a binary image.
+    
+    Extracts pixel values matrix from a binary image, flattens the matrix to a single list and finds its mean.
+    
+    The parameter p corresponds to both the parameters <\overline{p_{o}}> (Latex formatting) and <\overline{p_{no}}>, since both are calculated the same way. Please refer to the article to know their difference and usage.
+
+    Argument:
+        binaryimage -- Binarized image. 
+    """
+
+    p = np.mean(np.array(binaryimage).flatten())
+    
+    print('p: {}'.format(p))

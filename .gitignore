@@ -1,8 +1,8 @@
 # vscode stuffs
 settings.json
 
-# data folder contents, but keep directory
-data/*
+# input folder contents, but keep directory
+input/*
 
 # output folder contents, but keep directory
 output/*

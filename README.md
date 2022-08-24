@@ -60,7 +60,7 @@ If you have [Git](https://git-scm.com/ "Git official website") installed, you ca
 
 If you need help installing Git see this [link](https://github.com/git-guides/install-git "https://github.com/git-guides/install-git").
 
-If you do not want to install Git, or simply don't want to open a local Git repo, download the repository files using the following link 
+If you do not want to install Git, or simply don't want to open a local Git repo, download the repository files using this link 
 
 > <https://github.com/vmalv/Binary-Image-Mean-Pixel-Value/archive/refs/heads/main.zip>
 
@@ -92,7 +92,7 @@ In general terms, the script workflow is as follows:
 5. Binarize the RGB component and export it.
 6. Get the binary image mean pixel value.
 
-It is strongly recommended to see [`example.ipynb`](/example.ipynb) and [`libs/utils.py`](/libs/utils.py) for a detailed explanation of each line of the code.
+It is strongly recommended to see [example.ipynb](/example.ipynb) and [libs/utils.py](/libs/utils.py) for a detailed explanation of each line of the code.
 
 ## Further steps to calculate BBC
 

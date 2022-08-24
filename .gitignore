@@ -3,9 +3,11 @@ settings.json
 
 # input folder contents, but keep directory
 input/*
+!input/.gitkeep
 
 # output folder contents, but keep directory
 output/*
+!output/.gitkeep
 
 # Byte-compiled / optimized / DLL files
 __pycache__/

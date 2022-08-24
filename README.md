@@ -51,12 +51,14 @@ To use the script you must download the repository, have Python>=3.9.10 installe
 
 ### Downloading the repository
 
-If you have [`git`](https://git-scm.com/ "Git official website") installed, you can open the terminal, go to the path where you want to store the repository and simply run 
-> `git clone https://github.com/vmalv/Binary-Image-Mean-Pixel-Value.git`.
+If you have [`git`](https://git-scm.com/ "Git official website") installed, you can open the terminal, go to the path where you want to store the repository and simply run
+
+    git clone https://github.com/vmalv/Binary-Image-Mean-Pixel-Value.git
 
 If you need help installing `git` see this [link](https://github.com/git-guides/install-git "https://github.com/git-guides/install-git").
 
-If you do not want to install `git`, or simply don't want to open a local `git` repo, follow this link 
+If you do not want to install `git`, or simply don't want to open a local `git` repo, download the repository files using the following link 
+
 > https://github.com/vmalv/Binary-Image-Mean-Pixel-Value/archive/refs/heads/main.zip
 
 and extract the ZIP file in the directory of your preference.
@@ -70,7 +72,8 @@ Although we used Python version 3.9.10, the code should run without problems wit
 ### Installing required packages
 
 - With `pip` installed you can directly install the 'requirements.txt' file opening a terminal in the repository directory and running following line:
-    > `pip install -r requirements.txt`
+    
+        pip install -r requirements.txt
 
 - If `pip` is not installed then you could manually download and install the Python packages specified on the 'requirements.txt' file.
 However, it is recommended to install the packages using `pip`. To install `pip`, the official documentation provides a step-by-step [guide](https://pip.pypa.io/en/stable/installation/ "https://pip.pypa.io/en/stable/installation/").

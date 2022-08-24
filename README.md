@@ -99,11 +99,11 @@ It is strongly recommended to see [`example.ipynb`](/example.ipynb) and [`libs/u
 The script itself can be used for any application where it is suited. However, if you are looking to reproduce our results, or make a new research based on ours, further steps are necessary to calculate the BBC parameter for a given blocking material and configuration.
 
 1. Run the script for all the raw scanned images corresponding to CONFFREE experiments (experiments made with no cloth at any position). For each one of these experiments you will get a mean pixel value (p). The mean of all p values in CONFFREE corresponds to the parameter <\overline{p_{no}}> (Latex formatting) introduced in the article. 
-2. Suppose you make a set of experiments with a silk fabric in CONF1 (if the experiments were made in CONF2, CONF3 or CONF4 the steps would be identical). Run the script for the set of raw scanned images obtained. You will get the corresponding set of p values. The mean of these p values corresponds to the parameter <\overline{p_{o}}> presented in the article.
-3. Calculate BBC using the formula (1) of the article.
+2. Suppose you make a set of experiments with a given blocking material in CONF1 (if the experiments were made in CONF2, CONF3 or CONF4 the steps would be identical). Run the script for the set of raw scanned images obtained. You will get the corresponding set of p values. The mean of these p values corresponds to the parameter <\overline{p_{o}}> presented in the article.
+3. Calculate BBC using the formula (1) from the article.
 4. For BBC uncertainty, refer to S1 Supporting Information Section C.
 
-In this example you obtain the BBC value of the silk material in CONF1. For the rest of configurations and materials, repeat steps from 2 to 4.
+In this example you obtain the BBC value of the given blocking material in CONF1. For the rest of configurations and materials, repeat steps from 2 to 4.
 
 ## License
 

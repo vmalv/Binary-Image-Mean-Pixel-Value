@@ -1,6 +1,7 @@
 # Binary Image Mean Pixel Value
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-brightgreen.svg)](https://opensource.org/licenses/MIT) [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.6941697.svg)](https://doi.org/10.5281/zenodo.6941697)
+[![License: MIT](https://img.shields.io/badge/License-MIT-brightgreen.svg)](https://opensource.org/licenses/MIT)
+[![Zenodo](https://img.shields.io/badge/Raw%20images%20repo-10.5281%2Fzenodo.6941696-blue.svg)](https://doi.org/10.5281/zenodo.6941696)
 
 Python script to binarize an RGB image and find its mean pixel value.
 
@@ -8,7 +9,7 @@ This script was built for the image processing of the data reported on the PLOS 
 
 Please refer to article to understand the context, main use case and definition of parameters used in the script.
 
-Sample raw images that can be used to test the script can be found at V. Márquez-Alvarez, E.Altshuler. Raw images corresponding to article "Relative assessment of cloth mask protection against ballistic droplets: a frugal approach". Zenodo; 2022. doi: [10.5281/zenodo.6941697](https://doi.org/10.5281/zenodo.6941697).
+Sample raw images that can be used to test the script can be found at V. Márquez-Alvarez, E.Altshuler. Raw images corresponding to article "Relative assessment of cloth mask protection against ballistic droplets: a frugal approach". Zenodo; 2022. doi: [10.5281/zenodo.6941696](https://doi.org/10.5281/zenodo.6941696).
 
 
 This script is publicly hosted in this repository to allow the reproduction of our results. Nevertheless, further applications are encouraged. 

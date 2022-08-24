@@ -49,12 +49,12 @@ To use the script you must download the repository, have Python>=3.9.10 installe
 ### Downloading the repository
 
 If you have [`git`](https://git-scm.com/ "Git official website") installed, you can open the terminal, go to the path where you want to store the repository and simply run 
-> `git clone https://github.com/vmalv/Image-Processing-Script.git`.
+> `git clone https://github.com/vmalv/Binary-Image-Mean-Pixel-Value.git`.
 
 If you need help installing `git` see this [link](https://github.com/git-guides/install-git "https://github.com/git-guides/install-git").
 
 If you do not want to install `git`, or simply don't want to open a local `git` repo, follow this link 
-> https://github.com/vmalv/Image-Processing-Script/archive/refs/heads/main.zip
+> https://github.com/vmalv/Binary-Image-Mean-Pixel-Value/archive/refs/heads/main.zip
 
 and extract the ZIP file in the directory of your preference.
 

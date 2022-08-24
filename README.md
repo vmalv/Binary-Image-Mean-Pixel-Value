@@ -1,7 +1,10 @@
 # Binary Image Mean Pixel Value
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-brightgreen.svg)](https://opensource.org/licenses/MIT)
-[![Zenodo](https://img.shields.io/badge/Raw%20images%20repo-10.5281%2Fzenodo.6941696-blue.svg)](https://doi.org/10.5281/zenodo.6941696)
+[![Python](https://img.shields.io/badge/-Python-blue?logo=Python&logoColor=white)](https://www.python.org/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-brightgreen?logo=opensourceinitiative&logoColor=white)](/LICENSE)
+![GitHub repo size](https://img.shields.io/github/repo-size/vmalv/Binary-Image-Mean-Pixel-Value?color=chocolate&label=Repo%20size&logo=GitHub)
+[![Zenodo](https://img.shields.io/badge/Raw%20images%20repo-10.5281%2Fzenodo.6941696-blue?logo=Zenodo&logoColor=white&logoWidth=15)](https://doi.org/10.5281/zenodo.6941696)
+
 
 Python script to binarize an RGB image and find its mean pixel value.
 

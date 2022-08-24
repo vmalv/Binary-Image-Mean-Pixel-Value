@@ -8,56 +8,61 @@
 
 Python script to binarize an RGB image and find its mean pixel value.
 
-This script was built for the image processing of the data reported on the PLOS One article 'Relative assessment of cloth mask protection against ballistic droplets: a frugal approach' by V. Márquez-Alvarez, J. Amigó-Vega, A. Rivera, A. J. Batista-Leyva, and E. Altshuler.
+This script was built for the image processing of the data reported on "Márquez-Alvarez V, Amigó-Vera J, Rivera A, Batista-Leyva AJ, Altshuler E. Relative assessment of cloth mask protection against ballistic droplets: a frugal approach. PLOS One; 2022."
 
-Please refer to article to understand the context, main use case and definition of parameters used in the script.
+Please refer to the article to understand the context, main use case and definition of parameters used in the script.
 
-Sample raw images that can be used to test the script can be found at V. Márquez-Alvarez, E.Altshuler. Raw images corresponding to article "Relative assessment of cloth mask protection against ballistic droplets: a frugal approach". Zenodo; 2022. doi: [10.5281/zenodo.6941696](https://doi.org/10.5281/zenodo.6941696).
+Sample raw images that can be used to test the script can be found at "Márquez-Alvarez V, Altshuler E. Raw images corresponding to article 'Relative assessment of cloth mask protection against ballistic droplets: a frugal approach.' Zenodo; 2022. doi: [10.5281/zenodo.6941696](https://doi.org/10.5281/zenodo.6941696)".
 
+### Intended usage
 
-This script is publicly hosted in this repository to allow the reproduction of our results. Nevertheless, further applications are encouraged. 
+This script is publicly hosted in this repository to allow the reproduction of the results reported on the article. 
+
+Nevertheless, further applications are encouraged. 
 
 
 ## Files and folders
 
-Here you can find a description of each file and folder of the repository.
+Here you can find a description of each file and folder in the repository. It takes an image and some parameters as arguments
 
 ### Files
 
-- **main.py**
+- **[main.py](/main.py)**
 Python script that contains the minimum coding required to fulfill the script goal.
 
-- **example.ipynb**
+- **[example.ipynb](/example.ipynb)**
 Jupyter Notebook that contains an example using the script. Intermediate plots are included to help understanding each step in the image-preparation and parameter-extraction processes.
 
-- **libs/utils.py**
+- **[libs/utils.py](/libs/utils.py)**
 Python file containing the utility functions used.
 
-- **requirements.txt**
-Contains the version information of the Python libraries used.
+- **[requirements.txt](/requirements.txt)**
+Text file containing the version information of the Python libraries used.
 
 ### Folders
 
-- **input**
-We suggest placing in this directory the image(s) that will be processed by the script.
+- **[input](/input)**
+Suggested directory to place the image(s) that will be processed by the script.
 
-- **output**
-This directory contains the binarized image(s) exported by the script.
+- **[output](/output)**
+Directory that contains the binarized image(s) exported by the script.
 
 
 ## Requirements
 
-To use the script you must download the repository, have Python>=3.9.10 installed as well as the packages included in the 'requirements.txt' file.
+To use the script you must download the repository files, have Python>=3.9.10 installed as well as the packages included in the 'requirements.txt' file.
 
-### Downloading the repository
+### Downloading repository files
 
-If you have [`git`](https://git-scm.com/ "Git official website") installed, you can open the terminal, go to the path where you want to store the repository and simply run 
-> `git clone https://github.com/vmalv/Binary-Image-Mean-Pixel-Value.git`.
+If you have [Git](https://git-scm.com/ "Git official website") installed, you can open the terminal, go to the path where you want to download the repository and simply run
 
-If you need help installing `git` see this [link](https://github.com/git-guides/install-git "https://github.com/git-guides/install-git").
+    git clone https://github.com/vmalv/Binary-Image-Mean-Pixel-Value.git
 
-If you do not want to install `git`, or simply don't want to open a local `git` repo, follow this link 
-> https://github.com/vmalv/Binary-Image-Mean-Pixel-Value/archive/refs/heads/main.zip
+If you need help installing Git see this [link](https://github.com/git-guides/install-git "https://github.com/git-guides/install-git").
+
+If you do not want to install Git, or simply don't want to open a local Git repo, download the repository files using the following link 
+
+> <https://github.com/vmalv/Binary-Image-Mean-Pixel-Value/archive/refs/heads/main.zip>
 
 and extract the ZIP file in the directory of your preference.
 
@@ -69,11 +74,11 @@ Although we used Python version 3.9.10, the code should run without problems wit
 
 ### Installing required packages
 
-- With `pip` installed you can directly install the 'requirements.txt' file opening a terminal in the repository directory and running following line:
-    > `pip install -r requirements.txt`
+We recommend using [pip](https://pip.pypa.io/ "pip official website") to install the required packages --contained in 'requirements.txt'. If you need help installing pip, the official documentation provides a step-by-step [guide](https://pip.pypa.io/en/stable/installation/ "https://pip.pypa.io/en/stable/installation/").
 
-- If `pip` is not installed then you could manually download and install the Python packages specified on the 'requirements.txt' file.
-However, it is recommended to install the packages using `pip`. To install `pip`, the official documentation provides a step-by-step [guide](https://pip.pypa.io/en/stable/installation/ "https://pip.pypa.io/en/stable/installation/").
+With pip installed, open a terminal in the repository directory and run the following code:
+
+    pip install -r requirements.txt
 
 
 ## Script workflow
@@ -87,7 +92,7 @@ In general terms, the script workflow is as follows:
 5. Binarize the RGB component and export it.
 6. Get the binary image mean pixel value.
 
-It is strongly recommended to see 'example.ipynb' and 'libs/utils.py' for a detailed explanation of each line of the code.
+It is strongly recommended to see [`example.ipynb`](/example.ipynb) and [`libs/utils.py`](/libs/utils.py) for a detailed explanation of each line of the code.
 
 ## Further steps to calculate BBC
 

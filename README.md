@@ -109,4 +109,4 @@ In this example you obtain the BBC value of the given blocking material in CONF1
 
 Copyright (c) 2022 vmalv, jamigov
 
-This repository and its entire content is available under the MIT license. See the [LICENSE](/LICENSE) file for more info.
+The scripts and documentation in this project are released under the [MIT License](/LICENSE).

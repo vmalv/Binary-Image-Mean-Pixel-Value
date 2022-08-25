@@ -39,6 +39,9 @@ Python file containing the utility functions used.
 - **[requirements.txt](/requirements.txt)**
 Text file containing the version information of the Python libraries used.
 
+- **[CITATION.cff](/CITATION.cff)**
+File containing the appropriate metadata for citing the project. Not required for running the script.
+
 ### Folders
 
 - **[input](/input)**

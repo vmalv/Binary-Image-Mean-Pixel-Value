@@ -1,0 +1,38 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+authors:
+- family-names: "Márquez-Alvarez"
+  given-names: "Victor"
+  orcid: "https://orcid.org/0000-0001-6627-1872"
+  affiliation: "Center for Complex Systems, Physics Faculty, University of Havana"
+  city: Havana
+  country: CU
+  alias: vmalv
+- family-names: "Amigó-Vega"
+  given-names: "Joaquín"
+  orcid: "https://orcid.org/0000-0001-5920-8883"
+  affiliation: "Gran Sasso Science Institute"
+  city: L'aquila
+  country: IT
+  alias: jamigov
+title: "vmalv/Binary-Image-Mean-Pixel-Value"
+version: 1.0.0
+date-released: 2022-08-24
+repository-code: "https://github.com/vmalv/Binary-Image-Mean-Pixel-Value"
+license: MIT
+license-url: "https://github.com/vmalv/Binary-Image-Mean-Pixel-Value/blob/main/LICENSE"
+abstract: "Python script to binarize an RGB image and find its mean pixel value."
+identifiers:
+  - description: "The concept DOI of the project."
+    type: doi
+    value: 10.5281/zenodo.7020684
+  - description: "The versioned DOI for version 1.0.0 of the project."
+    type: doi
+    value: 10.5281/zenodo.7020685
+keywords:
+ - binarize
+ - image-processing
+ - mask
+ - facemask
+ - droplets-detection
+ - covid19

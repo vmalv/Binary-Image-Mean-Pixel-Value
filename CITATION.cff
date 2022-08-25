@@ -1,5 +1,5 @@
 cff-version: 1.2.0
-message: "If you use this software, please cite it as specified in 'CITATION.cff' file."
+message: "If you use this software, please cite it as declared in 'CITATION.cff' file."
 authors:
 - family-names: "Márquez-Alvarez"
   given-names: "Victor"
@@ -16,9 +16,9 @@ authors:
   country: IT
   alias: jamigov
 title: "Binary Image Mean Pixel Value"
-version: 1.0.1
+# version: 1.0.1
 doi: 10.5281/zenodo.7020684
-date-released: 2022-08-24
+# date-released: 2022-08-24
 url: "https://github.com/vmalv/Binary-Image-Mean-Pixel-Value"
 license: MIT
 abstract: "Python script to binarize an RGB image and find its mean pixel value."

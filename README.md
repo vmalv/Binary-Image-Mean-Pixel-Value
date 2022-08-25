@@ -23,12 +23,12 @@ Nevertheless, further applications are encouraged.
 
 ## Files and folders
 
-Here you can find a description of each file and folder in the repository. It takes an image and some parameters as arguments
+Here you can find a description of each file and folder in the repository.
 
 ### Files
 
 - **[main.py](/main.py)**
-Python script that contains the minimum coding required to fulfill the script goal.
+Python script that contains the minimum code required to fulfill the script goal.
 
 - **[example.ipynb](/example.ipynb)**
 Jupyter Notebook that contains an example using the script. Intermediate plots are included to help understanding each step in the image-preparation and parameter-extraction processes.
@@ -40,7 +40,7 @@ Python file containing the utility functions used.
 Text file containing the version information of the Python libraries used.
 
 - **[CITATION.cff](/CITATION.cff)**
-File containing the appropriate metadata for citing the project. Not required for running the script.
+File containing the appropriate citation data. Please refer to this file if you are citing the project. Not required for running the script.
 
 ### Folders
 

@@ -23,7 +23,7 @@ Nevertheless, further applications are encouraged.
 
 ## Files and folders
 
-Here you can find a description of each file and folder in the repository.
+Here you can find a description of the main files and folders in the repository.
 
 ### Files
 
@@ -38,9 +38,6 @@ Python file containing the utility functions used.
 
 - **[requirements.txt](/requirements.txt)**
 Text file containing the version information of the Python libraries used.
-
-- **[CITATION.cff](/CITATION.cff)**
-File containing the appropriate citation data. Please refer to this file if you are citing the project. Not required for running the script.
 
 ### Folders
 

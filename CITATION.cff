@@ -16,7 +16,7 @@ authors:
   country: IT
   alias: jamigov
 title: "Binary Image Mean Pixel Value"
-version: 1.0.0
+version: 1.0.1
 doi: 10.5281/zenodo.7020684
 date-released: 2022-08-24
 url: "https://github.com/vmalv/Binary-Image-Mean-Pixel-Value"

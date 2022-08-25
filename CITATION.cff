@@ -17,18 +17,11 @@ authors:
   alias: jamigov
 title: "Binary Image Mean Pixel Value"
 version: 1.0.0
+doi: 10.5281/zenodo.7020684
 date-released: 2022-08-24
-repository-code: "https://github.com/vmalv/Binary-Image-Mean-Pixel-Value"
+url: "https://github.com/vmalv/Binary-Image-Mean-Pixel-Value"
 license: MIT
-license-url: "https://github.com/vmalv/Binary-Image-Mean-Pixel-Value/blob/main/LICENSE"
 abstract: "Python script to binarize an RGB image and find its mean pixel value."
-identifiers:
-  - description: "The concept DOI of the project."
-    type: doi
-    value: 10.5281/zenodo.7020684
-  - description: "The versioned DOI for version 1.0.0 of the project."
-    type: doi
-    value: 10.5281/zenodo.7020685
 keywords:
  - binarize
  - image-processing

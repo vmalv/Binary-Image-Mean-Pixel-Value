@@ -9,7 +9,7 @@
 
 Python script to binarize an RGB image and find its mean pixel value.
 
-This script was built for the image processing of the data reported on "Márquez-Alvarez V, Amigó-Vera J, Rivera A, Batista-Leyva AJ, Altshuler E. Relative assessment of cloth mask protection against ballistic droplets: a frugal approach. PLOS One; 2022."
+This script was built for the image processing of the data reported on "Márquez-Alvarez V, Amigó-Vega J, Rivera A, Batista-Leyva AJ, Altshuler E. Relative assessment of cloth mask protection against ballistic droplets: a frugal approach. PLOS One; 2022."
 
 Please refer to the article to understand the context, main use case and definition of parameters used in the script.
 

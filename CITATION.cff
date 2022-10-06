@@ -12,18 +12,63 @@ authors:
   given-names: "Joaquín"
   orcid: "https://orcid.org/0000-0001-5920-8883"
   affiliation: "Gran Sasso Science Institute"
-  city: L'aquila
+  city: "L'aquila"
   country: IT
   alias: jamigov
 title: "Binary Image Mean Pixel Value"
-doi: 10.5281/zenodo.7020684
+abstract: "Python script to binarize an RGB image and find its mean pixel value."
 url: "https://github.com/vmalv/Binary-Image-Mean-Pixel-Value"
 license: MIT
-abstract: "Python script to binarize an RGB image and find its mean pixel value."
+identifiers:
+  - description: "This is the collection of archived snapshots of all versions of Binary Image Mean Pixel Value script"
+    type: doi
+    value: 10.5281/zenodo.7020684
 keywords:
  - binarize
- - image-processing
+ - "image processing"
  - mask
  - facemask
- - droplets-detection
+ - "droplets detection"
  - covid19
+preferred-citation:
+  type: article
+  authors:
+  - family-names: "Márquez-Alvarez"
+    given-names: "Victor"
+    orcid: "https://orcid.org/0000-0001-6627-1872"
+    affiliation: "Center for Complex Systems, Physics Faculty, University of Havana"
+    city: Havana
+    country: CU
+    alias: vmalv
+  - family-names: "Amigó-Vega"
+    given-names: "Joaquín"
+    orcid: "https://orcid.org/0000-0001-5920-8883"
+    affiliation: "Gran Sasso Science Institute"
+    city: "L'aquila"
+    country: IT
+    alias: jamigov
+  - family-names: "Rivera"
+    given-names: "Aramis"
+    orcid: "https://orcid.org/0000-0002-8579-7850"
+    affiliation: "Zeolites Engineering Laboratory, Institute of Materials and Reagents (IMRE), University of Havana"
+    city: Havana
+    country: CU
+  - family-names: "Batista-Leyva"
+    given-names: "Alfo José"
+    orcid: "https://orcid.org/0000-0003-4317-0360"
+    affiliation: "Instituto Superior de Ciencia y Tecnología Aplicadas (InSTEC), University of Havana"
+    city: Havana
+    country: CU
+  - family-names: "Altshuler"
+    given-names: "Ernesto"
+    orcid: "https://orcid.org/0000-0003-4192-5635"
+    affiliation: "Center for Complex Systems, Physics Faculty, University of Havana"
+    city: Havana
+    country: CU
+  title: "Relative assessment of cloth mask protection against ballistic droplets: A frugal approach"
+  journal: "PLOS ONE"
+  volume: 17
+  issue: 10
+  start: "e0275376"
+  year: 2022
+  doi: "10.1371/journal.pone.0275376"

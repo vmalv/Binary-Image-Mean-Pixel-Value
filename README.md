@@ -122,7 +122,9 @@ In this example you obtain the BBC value of the given blocking material in CONF1
 
 ## Citing this project
 
-If you use this script please cite the main article "V. Márquez-Alvarez, J. Amigó-Vega, A. Rivera, A. J. Batista-Leyva, and E. Altshuler, _Relative Assessment of Cloth Mask Protection against Ballistic Droplets: A Frugal Approach_. PLOS ONE __17__, e0275376 (2022). doi: [10.1371/journal.pone.0275376](https://doi.org/10.1371/journal.pone.0275376)."
+If you use this software, please cite both the software and the main article "V. Márquez-Alvarez, J. Amigó-Vega, A. Rivera, A. J. Batista-Leyva, and E. Altshuler, _Relative Assessment of Cloth Mask Protection against Ballistic Droplets: A Frugal Approach_. PLOS ONE __17__, e0275376 (2022). doi: [10.1371/journal.pone.0275376](https://doi.org/10.1371/journal.pone.0275376)."
+
+All citation metadata can be found at the [CITATION](/CITATION.cff) file.
 
 ## License
 

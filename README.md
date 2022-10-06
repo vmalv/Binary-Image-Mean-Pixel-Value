@@ -3,17 +3,31 @@
 [![Python](https://img.shields.io/badge/-Python-blue?logo=Python&logoColor=white)](https://www.python.org/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-brightgreen?logo=opensourceinitiative&logoColor=white)](/LICENSE)
 ![GitHub repo size](https://img.shields.io/github/repo-size/vmalv/Binary-Image-Mean-Pixel-Value?color=chocolate&label=Repo%20size&logo=GitHub)
+[![PLOS ONE Article](https://img.shields.io/badge/PLOS%20ONE%20Article-10.1371%2Fjournal.pone.0275376-blue)](https://doi.org/10.1371/journal.pone.0275376 "PLOS ONE Original Research Article.")
+<!---
 [![Zenodo releases repo](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.7020684-blue?logo=Zenodo&logoColor=white&logoWidth=15)](https://doi.org/10.5281/zenodo.7020684 "This project releases repository at Zenodo. Persistent, citable DOI.")
 [![Zenodo raw images](https://img.shields.io/badge/Raw%20images%20repo-10.5281%2Fzenodo.6941696-blue?logo=Zenodo&logoColor=white&logoWidth=15)](https://doi.org/10.5281/zenodo.6941696 "Raw images repository at Zenodo.")
+--->
 
 
 Python script to binarize an RGB image and find its mean pixel value.
 
-This script was built for the image processing of the data reported on "Márquez-Alvarez V, Amigó-Vega J, Rivera A, Batista-Leyva AJ, Altshuler E. Relative assessment of cloth mask protection against ballistic droplets: a frugal approach. PLOS One; 2022."
+This script was built for the image processing of the data reported on V. Márquez-Alvarez, J. Amigó-Vega, A. Rivera, A. J. Batista-Leyva, and E. Altshuler, _Relative Assessment of Cloth Mask Protection against Ballistic Droplets: A Frugal Approach_. PLOS ONE __17__, e0275376 (2022). doi: [10.1371/journal.pone.0275376](https://doi.org/10.1371/journal.pone.0275376).
+
+<!---
+Márquez-Alvarez V, Amigó-Vega J, Rivera A, Batista-Leyva AJ, Altshuler E (2022) Relative assessment of cloth mask protection against ballistic droplets: A frugal approach. PLoS ONE 17(10): e0275376. doi: [10.1371/journal.pone.0275376](https://doi.org/10.1371/journal.pone.0275376).
+
+Victor Márquez-Alvarez, Joaquín Amigó-Vega, Aramis Rivera, Alfo José Batista-Leyva, and Ernesto Altshuler. “Relative Assessment of Cloth Mask Protection against Ballistic Droplets: A Frugal Approach.” PLOS ONE __17__ 10, e0275376 (2022). https://doi.org/10.1371/journal.pone.0275376.
+--->
+
 
 Please refer to the article to understand the context, main use case and definition of parameters used in the script.
 
-Sample raw images that can be used to test the script can be found at "Márquez-Alvarez V, Altshuler E. Raw images corresponding to article 'Relative assessment of cloth mask protection against ballistic droplets: a frugal approach.' Zenodo; 2022. doi: [10.5281/zenodo.6941696](https://doi.org/10.5281/zenodo.6941696)".
+Sample raw images that can be used to test the script can be found at V. Márquez-Alvarez and E. Altshuler, _Raw Images Corresponding to Article “Relative Assessment of Cloth Mask Protection against Ballistic Droplets: A Frugal Approach.”_ Zenodo (2022). doi: [10.5281/zenodo.6941696](https://doi.org/10.5281/zenodo.6941696)".
+
+<!---
+"Márquez-Alvarez V, Altshuler E. Raw images corresponding to article 'Relative assessment of cloth mask protection against ballistic droplets: a frugal approach.' 2022. Zenodo. doi: [10.5281/zenodo.6941696](https://doi.org/10.5281/zenodo.6941696)".
+--->
 
 ### Intended usage
 
@@ -106,8 +120,12 @@ The script itself can be used for any application where it is suited. However, i
 
 In this example you obtain the BBC value of the given blocking material in CONF1. For the rest of configurations and materials, repeat steps from 2 to 4.
 
+## Citing this project
+
+If you use this script please cite the main article "V. Márquez-Alvarez, J. Amigó-Vega, A. Rivera, A. J. Batista-Leyva, and E. Altshuler, _Relative Assessment of Cloth Mask Protection against Ballistic Droplets: A Frugal Approach_. PLOS ONE __17__, e0275376 (2022). doi: [10.1371/journal.pone.0275376](https://doi.org/10.1371/journal.pone.0275376)."
+
 ## License
 
 Copyright (c) 2022 vmalv, jamigov
 
-The scripts and documentation in this project are released under the [MIT License](/LICENSE).
+The scripts and documentation in this project are released under the MIT License. Please refer to the [LICENSE](/LICENSE) file.
